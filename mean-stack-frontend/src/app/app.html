@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: 'Courier New', monospace;
+        }
+        header {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 1px;
+            text-align: center;
+        }
+        nav {
+            background-color: #303030;
+            text-align: center;
+            font-size: 16px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #3f4040;
+        }
+        main {
+            padding: 2em;
+        }
+        footer {
+            text-align: center;
+            background-color: #303030;
+            color: white;
+            padding: 0.55em ;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Reviewer</h1>
+        <p>A Game Review Site</p>
+    </header>
+
+    <nav>
+        <a routerLink="aboutpage">About</a>
+        <a routerLink="homepage">Home</a>
+	<a routerLink="cataloguepage">Catalogue</a>
+        <a routerLink="profilespage">Profiles</a>
+        <a routerLink="loginpage">Login</a>
+    </nav>
+    <router-outlet></router-outlet>
+    <footer>
+        <p>&copy; Game Reviewer</p>
+    </footer>
+
+</body>
+</html>
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
